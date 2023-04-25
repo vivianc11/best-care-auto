@@ -7,9 +7,10 @@ import StoreHoursDropdown from '../Components/StoreHoursDropdown/StoreHoursDropd
 const AboutUs = () => {
   return (
     <div>
+      <h3 className='title'>Common Services</h3>
       <div className='top-container'>
         <div className='common-services-container'>
-          <h3 className='title'>Common Services</h3>
+
           <div className='common-services-cards'>
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header>Header</Card.Header>
@@ -57,7 +58,7 @@ const AboutUs = () => {
         <div class="break"></div>
         <div class="break"></div>
 
-        <h3>Types of Cars We Work On</h3>
+        <h3 className='title'>Types of Cars We Work On</h3>
         <div className='type-of-cars-container'>  
           <Card.Img title='Honda logo' src='honda.png' style={{height:"200px", width:"200px"}}></Card.Img>
           <Card.Img title='Audi logo' src='audi.png' style={{height:"200px", width:"200px"}}></Card.Img>
