@@ -12,17 +12,13 @@
     width: 200px;
 }
 
-.bca-logo {
-    width: 200px;
-}
-
 .header-desc {
-    padding-top: 1rem;
+    margin-bottom: 8px;
 }
 
 .bca-logo {
     height: 120px;
-    width: 200px;
+    width: 250px;
     align-self: center;
 }
 

@@ -22,6 +22,7 @@ const NavBar = () => {
             <Nav.Link className='px-5 mx-5' style={styles.nav} href="/">About Us</Nav.Link>
             <Nav.Link className='px-5 mx-5' style={styles.nav} href="/services">Services</Nav.Link>
             <Nav.Link className='px-5 mx-5' style={styles.nav} href="/faq">FAQs</Nav.Link>
+            <Nav.Link className='px-5 mx-5' style={styles.nav} href="/customerreviews">Customer Reviews</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
