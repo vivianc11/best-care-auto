@@ -14,6 +14,7 @@ const NavBar = () => {
             <Nav.Link className='px-5 mx-5' href="/">About Us</Nav.Link>
             <Nav.Link className='px-5 mx-5' href="/services">Services</Nav.Link>
             <Nav.Link className='px-5 mx-5' href="/faq">FAQs</Nav.Link>
+            <Nav.Link className='px-5 mx-5' href="/customerreviews">Customer Reviews</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
