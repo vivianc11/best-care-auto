@@ -1,14 +1,26 @@
 .header-container {
+    align-content: center;
     display: flex;
     margin: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .header-desc {
     padding-top: 1rem;
 }
 
+.bca-logo {
+    height: 120px;
+    width: 200px;
+    align-self: center;
+}
+
 .ase-logo {
-    height: 50px;
+    height: 60px;
+    width: 140px;
     align-self: center;
 }
 

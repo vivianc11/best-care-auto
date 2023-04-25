@@ -21,7 +21,7 @@ const AboutUs = () => {
       <div className='about-us-container'>
         <h2>About Us</h2>
         <Card style={{ flexDirection: 'row', marginRight: 10, marginLeft: 10 }}>
-          <Card.Img style={{ width: 'auto', height: 'auto' }} src="groupphoto.jpeg" />
+          <Card.Img className='group-photo' style={{ width: '50%', height: '50%' }} src="groupphoto.jpeg" />
           <Card.Body>
             <Card.Text>
               Best Care Auto is family owned business by two cousins, Tom and Dennis.
