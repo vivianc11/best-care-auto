@@ -64,7 +64,7 @@ const AboutUs = () => {
       <div className='about-us-container'>
         <h2>About Us</h2>
         <Card style={{ flexDirection: 'row', marginRight: 10, marginLeft: 10 }}>
-          <Card.Img style={{ width: 'auto', height: 'auto' }} src="groupphoto.jpeg" />
+          <Card.Img className='group-photo' style={{ width: '50%', height: '50%' }} src="groupphoto.jpeg" />
           <Card.Body>
             <Card.Text>
               Best Care Auto is family owned business by two cousins, Tom and Dennis.
@@ -98,6 +98,7 @@ const AboutUs = () => {
       {/* Google Map Location */}
       <iframe 
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1459.7209468581832!2d-117.9318410113622!3d33.759066107165516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd27f38ad98e6b%3A0xc3e6620fa0b73186!2sBest%20Care%20Auto!5e0!3m2!1sen!2sus!4v1682448443090!5m2!1sen!2sus" 
+        title='google map location'
         width="80%" 
         height="450px" 
         style={{border:0}} 

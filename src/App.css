@@ -2,6 +2,7 @@
   text-align: center;
   position: relative;
   min-height: 100vh;
+  background-color: #ececec;
 }
 
 .App-header {
@@ -26,15 +27,13 @@
 .Footer {
   position: absolute;
   bottom: 0;
-  text-align: center;
   left: 0%;
-  background-color: #bfbfbf;
   width: 100%;
   height: 2.5rem;
 }
 
 @media screen and (min-width: 480px) {
-  .footer {
-    background-color: #bfbfbf;
+  .Footer {
+    text-align: center;
   }
 }
