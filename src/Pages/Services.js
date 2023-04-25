@@ -1,17 +1,57 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import Card from 'react-bootstrap/Card';
 
 const Services = () => {
   return (
     <div>
+      <div className='top-container'>
       <h1 className='title'>Services</h1>
-    
-    <Container>
-    <Row>
+      <div className='services-cards'>
+      <Card border="dark" style={{ width: '18rem' }}>
+              <Card.Header>General Services</Card.Header>
+              <Card.Body>
+                <Card.Title>Dark Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card border="dark" style={{ width: '18rem' }}>
+              <Card.Header>Header</Card.Header>
+              <Card.Body>
+                <Card.Title>Dark Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card border="dark" style={{ width: '18rem' }}>
+              <Card.Header>Header</Card.Header>
+              <Card.Body>
+                <Card.Title>Dark Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card border="dark" style={{ width: '18rem' }}>
+              <Card.Header>Header</Card.Header>
+              <Card.Body>
+                <Card.Title>Dark Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up the
+                  bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+      </div>
+    </div>
+    {/* <Row>
         <Col>
-          <h3>General Services</h3>
+          <h3></h3>
           <p>Factory Scheduled Maintenance 30k/60k/90k<br/>
             Starter Repair/Replacement<br/>
             Tune Ups<br/>
@@ -64,8 +104,7 @@ const Services = () => {
         </Col>
       </Row>
 
-      <br/><br/>
-    </Container>
+      <br/><br/> */}
 
     </div>
   );
