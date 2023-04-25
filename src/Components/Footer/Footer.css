@@ -4,6 +4,9 @@ img {
 }
 
 .footer {
+    display: flex;
     background-color: #1d1d1d;
     width: 100%;
+    justify-content: center;
+    gap: 15px;
   }
