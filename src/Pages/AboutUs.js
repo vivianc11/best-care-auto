@@ -9,8 +9,8 @@ const AboutUs = () => {
     <div>
       <div className='top-container'>
         <div className='common-services-container'>
-          <h3 style={{marginBottom: 15}}>Common Services</h3>
-          <div style={{display: 'flex', justifyContent: 'space-around'}}>
+          <h3 style={{ marginBottom: 15 }}>Common Services</h3>
+          <div style={{ display: 'flex', justifyContent: 'space-around' }}>
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header>Header</Card.Header>
               <Card.Body>
@@ -62,10 +62,10 @@ const AboutUs = () => {
       </div>
 
       <div className='about-us-container'>
-        <h2>About Us</h2>
         <Card style={{ flexDirection: 'row', marginRight: 10, marginLeft: 10 }}>
           <Card.Img className='group-photo' style={{ width: '50%', height: '50%' }} src="groupphoto.jpeg" />
           <Card.Body>
+            <h2>About Us</h2>
             <Card.Text>
               Best Care Auto is family owned business by two cousins, Tom and Dennis.
             </Card.Text>
@@ -88,12 +88,13 @@ const AboutUs = () => {
         </Card>
       </div>
 
-      <h3>Come By and Meet the Team!</h3>
+      <h3 style={{margin: 0}}>Come By and Meet the Team!</h3>
       <div className='store-hours'>
         <div className='store-hours-text'>Store Hours: </div>
         <StoreHoursDropdown />
       </div>
-      
+      <div style={{marginBottom: '25px'}}>Phone #: (714) 722-3706 </div>
+
 
       {/* Google Map Location */}
       <iframe 
