@@ -59,4 +59,9 @@
         justify-content: center;
     }
 
+    .car-logos {
+        height: 90%;
+        width: 90%;
+    }
+
 }
