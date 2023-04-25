@@ -14,11 +14,15 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+    
+.about-us-container {
+    margin: 25px 0;
+}
 
 .store-hours {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 25px 25px 0 25px;
 }
 
 .store-hours-text {
