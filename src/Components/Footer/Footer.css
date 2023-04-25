@@ -3,11 +3,18 @@ img {
     margin: 10px;
 }
 
-.footer {
-    position: fixed;
+/* .footer {
+    position: absolute;
     bottom: 0;
     text-align: center;
     left: 0%;
     background-color: #1d1d1d;
     width: 100%;
+    margin-top: 2.5rem;
   }
+
+  @media screen and (min-width: 480px) {
+    .footer {
+      
+    }
+  } */

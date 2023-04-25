@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  position: relative;
+  min-height: 100vh;
 }
 
 .App-header {
@@ -15,4 +17,24 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.Footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  left: 0%;
+  background-color: #bfbfbf;
+  width: 100%;
+  height: 2.5rem;
+}
+
+@media screen and (min-width: 480px) {
+  .footer {
+    background-color: #bfbfbf;
+  }
 }

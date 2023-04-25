@@ -12,6 +12,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className='content-wrap'>
       <Header />
       <NavBar />
       <Router>
@@ -21,7 +22,8 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
         </Routes>
       </Router>
-      <Footer />
+      </div>
+      <Footer className="Footer" />
     </div>
   );
 }
