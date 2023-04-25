@@ -4,6 +4,7 @@ const AboutUs = () => {
   return (
     <div>
       <h1 className='title'>About Us</h1>
+      
     </div>
   );
 }
