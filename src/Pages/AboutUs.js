@@ -7,6 +7,7 @@ import StoreHoursDropdown from '../Components/StoreHoursDropdown/StoreHoursDropd
 const AboutUs = () => {
   return (
     <div>
+      <div className='header-desc'>YOUR TRUSTED GARDEN GROVE MECHANICS PROVIDING TOP-NOTCH AUTOMOTIVE SERVICES WITH A COMMITMENT TO QUALITY, RELIABILITY, AND CUSTOMER SATISFACTION</div>
       <h3 className='title'>Common Services</h3>
       <div className='top-container'>
         <div className='common-services-container'>

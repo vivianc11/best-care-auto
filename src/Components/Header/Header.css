@@ -1,15 +1,8 @@
 .header-container {
-    align-content: center;
     display: flex;
     margin: 0;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.bca-logo {
-    width: 200px;
 }
 
 .header-desc {
@@ -17,15 +10,26 @@
 }
 
 .bca-logo {
-    height: 120px;
-    width: 250px;
-    align-self: center;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+
+.contact-text {
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 .ase-logo {
-    height: 60px;
-    width: 140px;
+    height: 150px;
+    width: 100px;
     align-self: center;
+}
+
+img {
+    width: 50px;
+    margin-right: 30px;
+    margin-bottom: 10px;
 }
 
 .bold {
