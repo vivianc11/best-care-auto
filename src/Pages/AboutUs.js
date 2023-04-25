@@ -9,8 +9,8 @@ const AboutUs = () => {
     <div>
       <div className='top-container'>
         <div className='common-services-container'>
-          <h3 style={{marginBottom: 15}}>Common Services</h3>
-          <div style={{display: 'flex', justifyContent: 'space-around'}}>
+          <h3 className='title'>Common Services</h3>
+          <div className='common-services-cards'>
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header>Header</Card.Header>
               <Card.Body>
@@ -64,7 +64,7 @@ const AboutUs = () => {
       <div className='about-us-container'>
         <h2>About Us</h2>
         <Card style={{ flexDirection: 'row', marginRight: 10, marginLeft: 10 }}>
-          <Card.Img className='group-photo' style={{ width: '50%', height: '50%' }} src="groupphoto.jpeg" />
+          <Card.Img className='group-photo' style={{ width: '50%', height: '50%'}} src="groupphoto.jpeg" />
           <Card.Body>
             <Card.Text>
               Best Care Auto is family owned business by two cousins, Tom and Dennis.
