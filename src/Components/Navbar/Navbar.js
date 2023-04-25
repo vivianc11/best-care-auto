@@ -7,15 +7,16 @@ import './Navbar.css';
 const NavBar = () => {
   const styles = {
     nav: {
-      color: "#b50717",
+      color: "#cf291d",
       fontWeight: "bold",
-      fontSize: "30px"
+      fontSize: "30px",
+      borderRadius: "15px"
     }
   }
 
   return (
     <Navbar className='nav-bar' bg="light" expand="lg">
-      <Container fluid>
+      <Container fluid >
         <Navbar.Toggle className='ms-auto' aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">

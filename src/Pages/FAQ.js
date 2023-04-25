@@ -9,7 +9,7 @@ const FAQ = () => {
       <h6 style={{paddingTop: '10px', paddingBottom: '5px'}}>We've included some frequently asked questions below. If you have more questions, feel free to reach out. We're dedicated to addressing all your concerns!</h6>
 
       <section>
-        <Accordion>
+        <Accordion style={{margin: "10px"}}>
 
         <Accordion.Item eventKey="0">  
           <Accordion.Header as="h5">Do I have to make an appointment before bringing in my vehicle?</Accordion.Header>
