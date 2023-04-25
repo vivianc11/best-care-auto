@@ -5,9 +5,8 @@ import "./style.css";
 const FAQ = () => {
   return (
     <div>
-      <h1 className='title'>FAQ</h1>
       
-      <p>Below are some commonly asked questions. Check them out, and if you have more, feel free to reach out, and we'll be sure to get your questions</p>
+      <h6 style={{paddingTop: '10px', paddingBottom: '5px'}}>We've included some frequently asked questions below. If you have more questions, feel free to reach out. We're dedicated to addressing all your concerns!</h6>
 
       <section>
         <Accordion>
