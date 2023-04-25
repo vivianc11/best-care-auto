@@ -6,6 +6,7 @@ import NavBar from './Components/Navbar/Navbar';
 import AboutUs from './Pages/AboutUs';
 import Services from './Pages/Services';
 import FAQ from './Pages/FAQ';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
         </Routes>
       </Router>
-
+      <Footer />
     </div>
   );
 }
