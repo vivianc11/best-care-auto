@@ -5,6 +5,7 @@ const Header = () => {
   return (
     <div className='header-container'>
       <img className='bca-logo' src='./BestCareAuto.png' alt='Best Care Auto Logo' />
+      <div class="break"></div>
       <div>
         <div className='header-desc'>YOUR TRUSTED GARDEN GROVE MECHANICS PROVIDING TOP-NOTCH AUTOMOTIVE SERVICES WITH A COMMITMENT TO QUALITY, RELIABILITY, AND CUSTOMER SATISFACTION</div>
         <h3><span className='bold'>Contact Us: </span><span>(714) 722-3706</span></h3>

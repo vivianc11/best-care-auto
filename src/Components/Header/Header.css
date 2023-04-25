@@ -31,3 +31,8 @@
 .bold {
     font-weight: bold;
 }
+
+.break {
+    flex-basis: 100%;
+    height: 10px;
+}
