@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from './Components/Header/Header';
 import NavBar from './Components/Navbar/Navbar';
 import AboutUs from './Pages/AboutUs';
 import Services from './Pages/Services';
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <NavBar />
       <Router>
         <Routes>
