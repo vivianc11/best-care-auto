@@ -74,8 +74,8 @@ const AboutUs = () => {
       <div class="break"></div>
 
       <div className='about-us-container'>
-        <Card style={{ flexDirection: 'row', marginRight: 10, marginLeft: 10 }}>
-          <Card.Img className='group-photo' style={{ width: '50%', height: '50%'}} src="groupphoto.jpeg" />
+        <Card className='about-us-card'>
+          <Card.Img className='crew-photo' style={{ width: '50%', height: '50%'}} src="groupphoto.jpeg" />
           <Card.Body>
             <h2>About Us</h2>
             <Card.Text>
