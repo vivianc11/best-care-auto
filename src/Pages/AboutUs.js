@@ -60,11 +60,11 @@ const AboutUs = () => {
 
         <h3 className='title'>Types of Cars We Work On</h3>
         <div className='type-of-cars-container'>  
-          <Card.Img title='Honda logo' src='honda.png' style={{height:"200px", width:"200px"}}></Card.Img>
-          <Card.Img title='Audi logo' src='audi.png' style={{height:"200px", width:"200px"}}></Card.Img>
-          <Card.Img title='Toyota logo' src='toyota.png' style={{height:"200px", width:"200px"}}></Card.Img>
+          <Card.Img title='Honda logo' src='honda.png' style={{height:"200px", width:"250px"}}></Card.Img>
+          <Card.Img title='Audi logo' src='audi.png' style={{height:"200px", width:"250px"}}></Card.Img>
+          <Card.Img title='Toyota logo' src='toyota.png' style={{height:"200px", width:"250px"}}></Card.Img>
           <Card.Img title='BMW' src='bmw.png' style={{height:"200px", width:"200px"}}></Card.Img>
-          <Card.Img title='Lexus' src='lexus.png' style={{height:"200px", width:"200px"}}></Card.Img>
+          <Card.Img title='Lexus' src='lexus.png' style={{height:"200px", width:"250px"}}></Card.Img>
         </div>
 
         <Link to='/services'>Click Here</Link><span> for a complete list of services and cars!</span>
