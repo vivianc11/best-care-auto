@@ -26,7 +26,7 @@ const hours = () => {
 const StoreHoursDropdown = () => {
   return (
     <Dropdown>
-      <Dropdown.Toggle variant="" id="store-hours-dropdown">
+      <Dropdown.Toggle className="" variant="" id="store-hours-dropdown">
         {getCurrentDay()}{' '}{hours()}
       </Dropdown.Toggle>
       <Dropdown.Menu>
