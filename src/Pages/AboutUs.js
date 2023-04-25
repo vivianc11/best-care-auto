@@ -54,12 +54,23 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div className='type-of-cars-container'>
-          <h3>Types of Cars We Work On</h3>
+        <div class="break"></div>
+        <div class="break"></div>
+
+        <h3>Types of Cars We Work On</h3>
+        <div className='type-of-cars-container'>  
+          <Card.Img title='Honda logo' src='honda.png' style={{height:"200px", width:"200px"}}></Card.Img>
+          <Card.Img title='Audi logo' src='audi.png' style={{height:"200px", width:"200px"}}></Card.Img>
+          <Card.Img title='Toyota logo' src='toyota.png' style={{height:"200px", width:"200px"}}></Card.Img>
+          <Card.Img title='BMW' src='bmw.png' style={{height:"200px", width:"200px"}}></Card.Img>
+          <Card.Img title='Lexus' src='lexus.png' style={{height:"200px", width:"200px"}}></Card.Img>
         </div>
 
         <Link to='/services'>Click Here</Link><span> for a complete list of services and cars!</span>
       </div>
+
+      <div class="break"></div>
+      <div class="break"></div>
 
       <div className='about-us-container'>
         <Card style={{ flexDirection: 'row', marginRight: 10, marginLeft: 10 }}>
