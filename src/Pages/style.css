@@ -2,3 +2,16 @@
     font-size: 40px;
 }
 
+.common-services-container {
+    margin: 25px 0;
+}
+
+.store-hours {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.store-hours-text {
+    align-self: center;
+}

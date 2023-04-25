@@ -3,12 +3,16 @@
     margin: 0;
 }
 
+.bca-logo {
+    width: 200px;
+}
+
 .header-desc {
     padding-top: 1rem;
 }
 
 .ase-logo {
-    height: 50px;
+    width: 150px;
     align-self: center;
 }
 
