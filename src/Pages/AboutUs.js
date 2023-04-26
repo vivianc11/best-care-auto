@@ -16,6 +16,8 @@ const AboutUs = () => {
       <div className='top-container'>
         <div className='common-services-container'>
 
+        <hr class="hr hr-blurry" />
+
           <div className='common-services-cards'>
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header>Electrical Diagnosis & Repair</Card.Header>
