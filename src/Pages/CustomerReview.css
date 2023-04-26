@@ -1,5 +1,9 @@
 .review-card-container {
- margin: 40px;
+    margin: 40px;
+    display: flex;
+    width: 30rem;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .card-top {
@@ -9,4 +13,26 @@
 .reviewer-info {
     display: flex;
     align-items: center;
+}
+
+.reviewer-yelp-photo {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.reviewer-google-photo {
+    height: 100px;
+    width: 100px;
+}
+
+.yelp-rating,
+.google-rating {
+    height: fit-content;
+    width: fit-content;
+    margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+
 }
