@@ -10,7 +10,8 @@ const NavBar = () => {
       color: "#cf291d",
       fontWeight: "bold",
       fontSize: "30px",
-      borderRadius: "15px"
+      borderRadius: "15px",
+      fontFamily: 'Archivo Black',
     }
   }
 
