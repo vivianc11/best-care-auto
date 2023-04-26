@@ -7,6 +7,10 @@ import './CustomerReview.css';
 const CustomerReviews = () => {
 
   return (
+    <div>
+        <h1 className='title'>Customer Reviews</h1>
+      <hr class="hr hr-blurry" />
+    
     <div className='review-card-container'>
       <Card  >
         <Card.Body>
@@ -145,6 +149,7 @@ const CustomerReviews = () => {
         </Card.Body>
         <Card.Footer className="text-muted"><a href='https://goo.gl/maps/xCdBNHV5sr7XXbaz9' target="_blank" rel="noopener noreferrer">Read on Google Reviews</a></Card.Footer>
       </Card>
+    </div>
     </div>
   )
 
