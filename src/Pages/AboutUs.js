@@ -20,7 +20,7 @@ const AboutUs = () => {
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header>Electrical Diagnosis & Repair</Card.Header>
               <Card.Body>
-                <Card.Title>Is your car not starting or running properly?</Card.Title>
+                <Card.Title>Car not starting/running properly?</Card.Title>
                 <Card.Text>
                   We are experts in diagnosing and fixing electrical issues so that you feel safe in your car.
                 </Card.Text>

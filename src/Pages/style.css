@@ -74,4 +74,11 @@
         width: 90%;
     }
 
+    .welcome-text {
+        font-size: 50px;
+        font-family: 'Squada One', cursive;
+        margin: 10px;
+        color: #b50717;
+    }
+
 }
