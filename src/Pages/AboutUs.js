@@ -11,6 +11,7 @@ const AboutUs = () => {
       <div className='header-desc'>
         YOUR TRUSTED GARDEN GROVE MECHANICS PROVIDING TOP-NOTCH AUTOMOTIVE SERVICES WITH A COMMITMENT TO QUALITY, RELIABILITY, AND CUSTOMER SATISFACTION
       </div>
+      <br/>
       <h3 className='title'>Common Services</h3>
       <div className='top-container'>
         <div className='common-services-container'>
@@ -80,7 +81,7 @@ const AboutUs = () => {
         <Card className='about-us-card'>
           <Card.Img className='crew-photo' style={{ width: '50%', height: '50%'}} src="groupphoto.jpeg" />
           <Card.Body>
-            <h2>About Us</h2>
+            <h2 className='title'>About Us</h2>
             <Card.Text>
               Best Care Auto is and family-owned business.
             </Card.Text>
@@ -102,7 +103,7 @@ const AboutUs = () => {
         </Card>
       </div>
 
-      <h3 style={{margin: 0}}>Come By and Meet the Team!</h3>
+      <h3 className='title' style={{margin: 0}}>Come By and Meet the Team!</h3>
       <div className='store-hours'>
         <div className='store-hours-text'>Store Hours: </div>
         <StoreHoursDropdown />
