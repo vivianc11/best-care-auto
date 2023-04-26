@@ -2,41 +2,20 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const CustomerReviews = () => {
-    const apiKey = process.env.REACT_APP_YELP_API_KEY;
-    const businessId = 'best-care-auto-garden-grove';
-
-    // const reviewsUrl = `https://api.yelp.com/v3/businesses/${businessId}/reviews`;
-
-    // const headers = {
-    //     'Authorization': `Bearer ${apiKey}`,
-    //     'Content-Type': 'application/json'
-    // };
-
-    // axios.get(reviewsUrl, { headers })
-    //     .then(response => {
-    //         console.log(response.data.reviews);
-    //         // process the reviews data here
-    //     })
-    //     .catch(error => {
-    //         console.error(error);
-    //     });
 
     const [reviews, setReviews] = useState([]);
+    // const options = {method: 'GET', headers: {accept: 'application/json'}};
+    // const businessAlias = 'best-care-auto-garden-grove';
+
 
     useEffect(() => {
-        axios.get(`https://api.yelp.com/v3/businesses/${businessId}/reviews`, {
-            headers: {
-                'Authorization': `Bearer ${apiKey}`,
-                'Content-Type': 'application/json'
-            }
-        })
-            .then(response => {
-                setReviews(response.data.reviews);
-            })
-            .catch(error => {
-                console.log(error);
-            });
-    }, []);
+        async function fetchData() {
+          const response = await axios.get('http://localhost:3001/api/yelp-reviews');
+          console.log(response.data.reviews)
+        //   setReviews(response.data.reviews);
+        }
+        fetchData();
+      }, []);
 
 
 
