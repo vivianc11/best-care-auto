@@ -18,7 +18,7 @@
 .reviewer-yelp-photo {
     height: 100px;
     width: 100px;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 .reviewer-google-photo {
