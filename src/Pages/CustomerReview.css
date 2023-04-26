@@ -1,0 +1,12 @@
+.review-card-container {
+ margin: 40px;
+}
+
+.card-top {
+    text-align: left;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+}
