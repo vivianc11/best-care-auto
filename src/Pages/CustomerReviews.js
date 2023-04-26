@@ -8,7 +8,7 @@ const CustomerReviews = () => {
 
   return (
     <div className='review-card-container'>
-      <Card style={{ width: '20rem' }}>
+      <Card  >
         <Card.Body>
           <div className='card-top'>
             <div className='reviewer-info'>
@@ -36,7 +36,7 @@ const CustomerReviews = () => {
         <Card.Footer className="text-muted"><a href='https://www.yelp.com/biz/best-care-auto-garden-grove?hrid=9rli3q4_4IgKLxOM77t-iQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)'>Read on Yelp</a></Card.Footer>
       </Card>
 
-      <Card style={{ width: '20rem' }}>
+      <Card  >
         <Card.Body>
           <div className='card-top'>
             <div className='reviewer-info'>
@@ -56,10 +56,10 @@ const CustomerReviews = () => {
           </Card.Text>
 
         </Card.Body>
-        <Card.Footer className="text-muted"><a href='https://www.yelp.com/biz/best-care-auto-garden-grove?hrid=7s-jzMhm6AwRZODM70_reA&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)'>Read on Yelp</a></Card.Footer>
+        <Card.Footer className="text-muted"><a href='https://www.yelp.com/biz/best-care-auto-garden-grove?hrid=7s-jzMhm6AwRZODM70_reA&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)' target="_blank" rel="noopener noreferrer">Read on Yelp</a></Card.Footer>
       </Card>
 
-      <Card style={{ width: '20rem' }}>
+      <Card  >
         <Card.Body>
           <div className='card-top'>
             <div className='reviewer-info'>
@@ -78,10 +78,10 @@ const CustomerReviews = () => {
           </Card.Text>
 
         </Card.Body>
-        <Card.Footer className="text-muted"><a href='https://www.yelp.com/biz/best-care-auto-garden-grove?hrid=icysdGN6uuKHWP2eIoyWHQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)'>Read more on Yelp</a></Card.Footer>
+        <Card.Footer className="text-muted"><a href='https://www.yelp.com/biz/best-care-auto-garden-grove?hrid=icysdGN6uuKHWP2eIoyWHQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)' target="_blank" rel="noopener noreferrer">Read more on Yelp</a></Card.Footer>
       </Card>
 
-      <Card style={{ width: '20rem' }}>
+      <Card  >
         <Card.Body>
           <div className='card-top'>
             <div className='reviewer-info'>
@@ -99,10 +99,10 @@ const CustomerReviews = () => {
           </Card.Text>
 
         </Card.Body>
-        <Card.Footer className="text-muted"><a href='https://goo.gl/maps/KxE65r1xs4fTjeXs7'>Read on Google Reviews</a></Card.Footer>
+        <Card.Footer className="text-muted"><a href='https://goo.gl/maps/KxE65r1xs4fTjeXs7' target="_blank" rel="noopener noreferrer">Read on Google Reviews</a></Card.Footer>
       </Card>
 
-      <Card style={{ width: '20rem' }}>
+      <Card  >
         <Card.Body>
           <div className='card-top'>
             <div className='reviewer-info'>
@@ -121,10 +121,10 @@ const CustomerReviews = () => {
           </Card.Text>
 
         </Card.Body>
-        <Card.Footer className="text-muted"><a href='https://goo.gl/maps/q6sXTZ9uoGGb3pur6'>Read on Google Reviews</a></Card.Footer>
+        <Card.Footer className="text-muted"><a href='https://goo.gl/maps/q6sXTZ9uoGGb3pur6' target="_blank" rel="noopener noreferrer">Read on Google Reviews</a></Card.Footer>
       </Card>
 
-      <Card style={{ width: '20rem' }}>
+      <Card  >
         <Card.Body>
           <div className='card-top'>
             <div className='reviewer-info'>
@@ -143,7 +143,7 @@ const CustomerReviews = () => {
           </Card.Text>
 
         </Card.Body>
-        <Card.Footer className="text-muted"><a href='https://goo.gl/maps/xCdBNHV5sr7XXbaz9'>Read on Google Reviews</a></Card.Footer>
+        <Card.Footer className="text-muted"><a href='https://goo.gl/maps/xCdBNHV5sr7XXbaz9' target="_blank" rel="noopener noreferrer">Read on Google Reviews</a></Card.Footer>
       </Card>
     </div>
   )

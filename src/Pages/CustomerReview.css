@@ -1,5 +1,9 @@
 .review-card-container {
     margin: 40px;
+    display: flex;
+    width: 30rem;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .card-top {
