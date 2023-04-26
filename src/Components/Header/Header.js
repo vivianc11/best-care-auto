@@ -4,13 +4,13 @@ import './Header.css';
 const Header = () => {
   return (
     <div className='header-container'>
-      <img className='bca-logo' src='./BestCareAuto.png' alt='Best Care Auto Logo' />      
+      <a href="/"><img className='bca-logo hover-shadow' src='./BestCareAuto.png' alt='Best Care Auto Logo' /></a>      
       <img className='ase-logo' src='./ase-logo.png' alt='ASE pic'/>
       <div class="break"></div>
       <div class="break"></div>
       <div>
         
-        <h3><span className='contact-text'>Contact Us: </span><span className='bold'>(714) 722-3706</span></h3>
+        <h3><span className='contact-text'>Contact Us: </span><span className='bold phone-text'>(714) 722-3706</span></h3>
       </div>
 
       <div className='social-logos'>

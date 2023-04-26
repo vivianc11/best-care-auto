@@ -9,18 +9,20 @@ const AboutUs = () => {
     <div>
       <h2 className='welcome-text'>Welcome to Best Care Auto!</h2>
       <div className='header-desc'>
-        YOUR TRUSTED GARDEN GROVE MECHANICS PROVIDING TOP-NOTCH AUTOMOTIVE SERVICES WITH A COMMITMENT TO QUALITY, RELIABILITY, AND CUSTOMER SATISFACTION
+        GARDEN GROVE MECHANICS WITH COMMITMENT TO QUALITY WORK, INTEGRITY, AND CUSTOMER SATISFACTION
       </div>
       <br/>
       <h3 className='title'>Common Services</h3>
       <div className='top-container'>
         <div className='common-services-container'>
 
+        <hr class="hr hr-blurry" />
+
           <div className='common-services-cards'>
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header>Electrical Diagnosis & Repair</Card.Header>
               <Card.Body>
-                <Card.Title>Is your car not starting or running properly?</Card.Title>
+                <Card.Title>Car not starting/running properly?</Card.Title>
                 <Card.Text>
                   We are experts in diagnosing and fixing electrical issues so that you feel safe in your car.
                 </Card.Text>
@@ -61,8 +63,10 @@ const AboutUs = () => {
 
         <div class="break"></div>
         <div class="break"></div>
+        <div class="break"></div>
 
         <h3 className='title'>Types of Cars We Work On</h3>
+        <hr class="hr hr-blurry" />
         <div className='type-of-cars-container'>  
           <Card.Img title='Honda logo' src='honda.png' style={{height:"200px", width:"250px"}}></Card.Img>
           <Card.Img title='Audi logo' src='audi.png' style={{height:"200px", width:"250px"}}></Card.Img>
@@ -76,12 +80,14 @@ const AboutUs = () => {
 
       <div class="break"></div>
       <div class="break"></div>
+      <div class="break"></div>
 
       <div className='about-us-container'>
         <Card className='about-us-card'>
           <Card.Img className='crew-photo' style={{ width: '50%', height: '50%'}} src="groupphoto.jpeg" />
           <Card.Body>
             <h2 className='title'>About Us</h2>
+            <hr class="hr hr-blurry" />
             <Card.Text>
               Best Care Auto is and family-owned business.
             </Card.Text>

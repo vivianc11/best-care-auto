@@ -1,10 +1,12 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import  './style.css';
 
 const Services = () => {
   return (
     <div>
       <h1 className='title'>Services</h1>
+      <hr class="hr hr-blurry" />
       <div className='top-container'>
       <div className='services-cards'>
       <Card border="dark" style={{ width: '25rem' }}>
@@ -79,8 +81,9 @@ const Services = () => {
             <div class="break"></div>
 
           <h1 className='title'>Cars We Service</h1>
+
           <div class="break"></div>
-          <Card.Img alt='Compliation of car logos' className='car-logos' src='CarBrands.png'></Card.Img>
+          <img alt='Compliation of car logos' className='car-logos' src='CarBrands.png'></img>
 
       </div>
     </div>

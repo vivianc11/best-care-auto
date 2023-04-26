@@ -5,6 +5,9 @@ import "./style.css";
 const FAQ = () => {
   return (
     <div>
+      <h1 className='title'>Frequently Asked Questions</h1>
+      
+      <hr class="hr hr-blurry" />
       
       <h6 style={{paddingTop: '10px', paddingBottom: '5px'}}>We've included some frequently asked questions below. If you have more questions, feel free to reach out. We're dedicated to addressing all your concerns!</h6>
 

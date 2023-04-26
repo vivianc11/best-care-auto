@@ -2,6 +2,7 @@
     font-size: 40px;
     margin-bottom: 15px;
     font-family: 'Sansita', sans-serif;
+    margin-top: 15px;
 }
 
 .welcome-text {
@@ -59,8 +60,8 @@
 }
 
 .car-logos {
-    height: fit-content;
-    width: fit-content;
+    height: 65%;
+    width: 65%;
 }
 
 @media screen and (max-width: 900px) {
@@ -72,6 +73,13 @@
     .car-logos {
         height: 90%;
         width: 90%;
+    }
+
+    .welcome-text {
+        font-size: 30px;
+        font-family: 'Squada One', cursive;
+        margin: 10px;
+        color: #b50717;
     }
 
 }
