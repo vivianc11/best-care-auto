@@ -10,7 +10,7 @@ const Header = () => {
       <div class="break"></div>
       <div>
         
-        <h3><span className='contact-text'>Contact Us: </span><span className='bold phone-text'>(714) 722-3706</span></h3>
+        <h3><span className='contact-text'>Contact Us: </span><span className='phone-text'>(714) 722-3706</span></h3>
       </div>
 
       <div className='social-logos'>

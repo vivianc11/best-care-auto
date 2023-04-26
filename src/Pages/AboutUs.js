@@ -20,7 +20,7 @@ const AboutUs = () => {
 
           <div className='common-services-cards'>
             <Card border="dark" style={{ width: '18rem' }}>
-              <Card.Header>Electrical Diagnosis & Repair</Card.Header>
+              <Card.Header className='fw-bold'>Electrical Diagnosis & Repair</Card.Header>
               <Card.Body>
                 <Card.Title>Car not starting/running properly?</Card.Title>
                 <Card.Text>
@@ -29,7 +29,7 @@ const AboutUs = () => {
               </Card.Body>
             </Card>
             <Card border="dark" style={{ width: '18rem' }}>
-              <Card.Header>Suspension</Card.Header>
+              <Card.Header className='fw-bold'>Suspension</Card.Header>
               <Card.Body>
                 <Card.Title>Bumpy Rides</Card.Title>
                 <Card.Text>
@@ -39,7 +39,7 @@ const AboutUs = () => {
               </Card.Body>
             </Card>
             <Card border="dark" style={{ width: '18rem' }}>
-              <Card.Header>Alignment</Card.Header>
+              <Card.Header className='fw-bold'>Alignment</Card.Header>
               <Card.Body>
                 <Card.Title>Pulling to away from the center</Card.Title>
                 <Card.Text>
@@ -49,7 +49,7 @@ const AboutUs = () => {
               </Card.Body>
             </Card>
             <Card border="dark" style={{ width: '18rem' }}>
-              <Card.Header>Oil Changes</Card.Header>
+              <Card.Header className='fw-bold'>Oil Changes</Card.Header>
               <Card.Body>
                 <Card.Title>Dark Card Title</Card.Title>
                 <Card.Text>

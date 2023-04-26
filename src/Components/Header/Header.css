@@ -6,14 +6,15 @@
 }
 
 .bca-logo {
-    height: 180px;
-    width: 290px;
+    height: 150px;
+    width: 350px;
     margin: 20px;
 }
 
 .contact-text {
     margin-left: 20px;
     margin-bottom: 10px;
+    font-size: xx-large;
     font-family: 'Sansita', sans-serif;
 }
 
@@ -35,10 +36,6 @@ img {
     margin-bottom: 10px;
 }
 
-.bold {
-    font-weight: bold;
-}
-
 .break {
     flex-basis: 100%;
     height: 10px;
@@ -53,6 +50,12 @@ img {
     .social-logos {
         height: 90%;
         width: 90%;
+    }
+    .contact-text {
+        font-size: 25px;
+    }
+    .phone-text {
+        font-size: 25px;
     }
 
 }
