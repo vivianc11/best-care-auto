@@ -7,16 +7,28 @@ import StoreHoursDropdown from '../Components/StoreHoursDropdown/StoreHoursDropd
 const AboutUs = () => {
   return (
     <div>
-      <div className='header-desc'>YOUR TRUSTED GARDEN GROVE MECHANICS PROVIDING TOP-NOTCH AUTOMOTIVE SERVICES WITH A COMMITMENT TO QUALITY, RELIABILITY, AND CUSTOMER SATISFACTION</div>
+      <h2 className='welcome-text'>Welcome to Best Care Auto!</h2>
+      <div className='header-desc'>
+        YOUR TRUSTED GARDEN GROVE MECHANICS PROVIDING TOP-NOTCH AUTOMOTIVE SERVICES WITH A COMMITMENT TO QUALITY, RELIABILITY, AND CUSTOMER SATISFACTION
+      </div>
       <h3 className='title'>Common Services</h3>
       <div className='top-container'>
         <div className='common-services-container'>
 
           <div className='common-services-cards'>
             <Card border="dark" style={{ width: '18rem' }}>
-              <Card.Header>Header</Card.Header>
+              <Card.Header>Electrical Diagnosis & Repair</Card.Header>
               <Card.Body>
-                <Card.Title>Dark Card Title</Card.Title>
+                <Card.Title>Is your car not starting or running properly?</Card.Title>
+                <Card.Text>
+                  We are experts in diagnosing and fixing electrical issues so that you feel safe in your car.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card border="dark" style={{ width: '18rem' }}>
+              <Card.Header>Suspension</Card.Header>
+              <Card.Body>
+                <Card.Title>Bumpy Rides</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
                   bulk of the card's content.
@@ -24,9 +36,9 @@ const AboutUs = () => {
               </Card.Body>
             </Card>
             <Card border="dark" style={{ width: '18rem' }}>
-              <Card.Header>Header</Card.Header>
+              <Card.Header>Alignment</Card.Header>
               <Card.Body>
-                <Card.Title>Dark Card Title</Card.Title>
+                <Card.Title>Pulling to away from the center</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the
                   bulk of the card's content.
@@ -34,17 +46,7 @@ const AboutUs = () => {
               </Card.Body>
             </Card>
             <Card border="dark" style={{ width: '18rem' }}>
-              <Card.Header>Header</Card.Header>
-              <Card.Body>
-                <Card.Title>Dark Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card border="dark" style={{ width: '18rem' }}>
-              <Card.Header>Header</Card.Header>
+              <Card.Header>Oil Changes</Card.Header>
               <Card.Body>
                 <Card.Title>Dark Card Title</Card.Title>
                 <Card.Text>
@@ -80,14 +82,13 @@ const AboutUs = () => {
           <Card.Body>
             <h2>About Us</h2>
             <Card.Text>
-              Best Care Auto is family owned business by two cousins, Tom and Dennis.
+              Best Care Auto is and family-owned business.
             </Card.Text>
             <Card.Text>
-              The entire team of auto technicians, Dusty, Nico, and [someone] grew up
-              locally in the Garden Grove area and share a passion for cars that began
-              in their childhoods. They honed their skills through years of working on cars,
+              The entire team of auto technicians grew up locally in the Garden Grove area and share a passion for cars that began
+              in their childhoods. They honed their skills through years of working on cars as a hobby,
               eventually leading them to pursue careers as mechanics. Each member of the team
-              owns multiple cars, including an everyday vehicle as well as a car that they
+              owns multiple cars, including an everyday vehicle, as well as a car that they
               work on purely for enjoyment. The team has a particular affinity for
               refurbishing old cars, taking pride in bringing these classic vehicles back
               to their former glory.
