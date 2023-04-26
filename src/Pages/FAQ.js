@@ -9,7 +9,7 @@ const FAQ = () => {
       <h6 style={{paddingTop: '10px', paddingBottom: '5px'}}>We've included some frequently asked questions below. If you have more questions, feel free to reach out. We're dedicated to addressing all your concerns!</h6>
 
       <section>
-        <Accordion style={{margin: "10px"}}>
+        <Accordion style={{margin: "20px"}}>
 
         <Accordion.Item eventKey="0">  
           <Accordion.Header as="h5">Do I have to make an appointment before bringing in my vehicle?</Accordion.Header>
@@ -44,28 +44,32 @@ const FAQ = () => {
         <Accordion.Item eventKey="4">  
           <Accordion.Header as="h5">Could you do an alignment on a lowered vehicle?</Accordion.Header>
             <Accordion.Body>
-            We are lowered-car friendly, and can align vehicles with rims up to 24 inches.
+              We are lowered-car friendly, and can align vehicles with rims up to 24 inches.
             </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="5">  
           <Accordion.Header as="h5">Do you offer any warranty on your repairs?</Accordion.Header>
             <Accordion.Body>
-
+              Yes, we follow industry standards. We have warranties for 1 year or 12,000 miles, whichever comes first.
             </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="6">  
           <Accordion.Header as="h5">Can I bring my own parts for the repairs?</Accordion.Header>
             <Accordion.Body>
-
+              Of course! We will also make sure that it is the correct corresponding part prior to installation/usage.
+              <br/><br/>
+              Note: Warranties may not be honored if we utilize your parts/materials.
             </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="7">  
           <Accordion.Header as="h5">Do you offer any financing options?</Accordion.Header>
             <Accordion.Body>
-
+              Not at the moment, but we are looking into options.
+              <br/><br/>
+              We understand that car costs can be stressful, please give us a call to discuss costs. Your safety and peace-of-mind are our priority.
             </Accordion.Body>
         </Accordion.Item>
 
