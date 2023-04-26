@@ -33,7 +33,7 @@ const CustomerReviews = () => {
           </Card.Text>
 
         </Card.Body>
-        <Card.Footer className="text-muted"><a href='https://www.yelp.com/biz/best-care-auto-garden-grove?hrid=9rli3q4_4IgKLxOM77t-iQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)'>Read on Yelp</a></Card.Footer>
+        <Card.Footer className="text-muted"><a href='https://www.yelp.com/biz/best-care-auto-garden-grove?hrid=9rli3q4_4IgKLxOM77t-iQ&utm_campaign=www_review_share_popup&utm_medium=copy_link&utm_source=(direct)' target="_blank" >Read on Yelp</a></Card.Footer>
       </Card>
 
       <Card  >

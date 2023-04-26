@@ -40,6 +40,10 @@ img {
     margin-right: 30px;
 }
 
+.slogo:last-child {
+    margin-right: 10px;
+}
+
 .break {
     flex-basis: 100%;
     height: 10px;
