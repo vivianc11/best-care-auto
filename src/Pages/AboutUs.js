@@ -109,13 +109,19 @@ const AboutUs = () => {
         </Card>
       </div>
 
+      <div class="break"></div>
+      <div class="break"></div>
+
       <h3 className='title' style={{margin: 0}}>Come By and Meet the Team!</h3>
+      <hr class="hr hr-blurry" />
       <div className='store-hours'>
         <div className='store-hours-text'>Store Hours: </div>
         <StoreHoursDropdown />
       </div>
       <div style={{marginBottom: '25px'}}>Phone #: (714) 722-3706 </div>
 
+      <div class="break"></div>
+      <div class="break"></div>
 
       {/* Google Map Location */}
       <iframe 
