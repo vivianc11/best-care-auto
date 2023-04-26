@@ -9,7 +9,7 @@ const AboutUs = () => {
     <div>
       <h2 className='welcome-text'>Welcome to Best Care Auto!</h2>
       <div className='header-desc'>
-        YOUR TRUSTED GARDEN GROVE MECHANICS PROVIDING TOP-NOTCH AUTOMOTIVE SERVICES WITH A COMMITMENT TO QUALITY, RELIABILITY, AND CUSTOMER SATISFACTION
+        GARDEN GROVE MECHANICS WITH COMMITMENT TO QUALITY WORK, INTEGRITY, AND CUSTOMER SATISFACTION
       </div>
       <br/>
       <h3 className='title'>Common Services</h3>
