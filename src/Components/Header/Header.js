@@ -6,8 +6,8 @@ const Header = () => {
     <div className='header-container'>
       <a href="/"><img className='bca-logo hover-shadow' src='./BestCareAuto.png' alt='Best Care Auto Logo' /></a>      
       <img className='ase-logo' src='./ase-logo.png' alt='ASE pic'/>
-      <div class="break"></div>
-      <div class="break"></div>
+       <div className="break"></div>
+       <div className="break"></div>
       <div>
         
         <h3><span className='contact-text'>Contact Us: </span><span className='bold phone-text'>(714) 722-3706</span></h3>

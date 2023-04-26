@@ -61,9 +61,9 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <div class="break"></div>
-        <div class="break"></div>
-        <div class="break"></div>
+         <div className="break"></div>
+         <div className="break"></div>
+         <div className="break"></div>
 
         <h3 className='title'>Types of Cars We Work On</h3>
         <hr class="hr hr-blurry" />
@@ -78,9 +78,9 @@ const AboutUs = () => {
         <Link to='/services'>Click Here</Link><span> for a complete list of services and cars!</span>
       </div>
 
-      <div class="break"></div>
-      <div class="break"></div>
-      <div class="break"></div>
+       <div className="break"></div>
+       <div className="break"></div>
+       <div className="break"></div>
 
       <div className='about-us-container'>
         <Card className='about-us-card'>
@@ -109,8 +109,8 @@ const AboutUs = () => {
         </Card>
       </div>
 
-      <div class="break"></div>
-      <div class="break"></div>
+       <div className="break"></div>
+       <div className="break"></div>
 
       <h3 className='title' style={{margin: 0}}>Come By and Meet the Team!</h3>
       <hr class="hr hr-blurry" />
@@ -118,10 +118,10 @@ const AboutUs = () => {
         <div className='store-hours-text'>Store Hours: </div>
         <StoreHoursDropdown />
       </div>
-      <div style={{marginBottom: '25px'}}>Phone #: (714) 722-3706 </div>
+      <div className='store-phone-text' style={{marginBottom: '25px'}}>Phone #: (714) 722-3706 </div>
 
-      <div class="break"></div>
-      <div class="break"></div>
+      <div className="break"></div>
+      <div className="break"></div>
 
       {/* Google Map Location */}
       <iframe 

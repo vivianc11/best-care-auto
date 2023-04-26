@@ -47,7 +47,7 @@ const Services = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <div class="break"></div>
+             <div className="break"></div>
             <Card border="dark" style={{ width: '25rem' }}>
               <Card.Header>Brake Service</Card.Header>
               <Card.Body>
@@ -75,14 +75,14 @@ const Services = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <div class="break"></div>
-            <div class="break"></div>
-            <div class="break"></div>
-            <div class="break"></div>
+             <div className="break"></div>
+             <div className="break"></div>
+             <div className="break"></div>
+             <div className="break"></div>
 
           <h1 className='title'>Cars We Service</h1>
 
-          <div class="break"></div>
+           <div className="break"></div>
           <img alt='Compliation of car logos' className='car-logos' src='CarBrands.png'></img>
 
       </div>

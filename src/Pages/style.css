@@ -52,6 +52,12 @@
 
 .store-hours-text {
     align-self: center;
+    font-size: 25px;
+}
+
+.store-phone-text{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .break {
