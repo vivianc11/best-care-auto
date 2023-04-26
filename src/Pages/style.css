@@ -59,8 +59,8 @@
 }
 
 .car-logos {
-    height: fit-content;
-    width: fit-content;
+    height: 65%;
+    width: 65%;
 }
 
 @media screen and (max-width: 900px) {

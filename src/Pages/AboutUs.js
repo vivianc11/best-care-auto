@@ -63,8 +63,10 @@ const AboutUs = () => {
 
         <div class="break"></div>
         <div class="break"></div>
+        <div class="break"></div>
 
         <h3 className='title'>Types of Cars We Work On</h3>
+        <hr class="hr hr-blurry" />
         <div className='type-of-cars-container'>  
           <Card.Img title='Honda logo' src='honda.png' style={{height:"200px", width:"250px"}}></Card.Img>
           <Card.Img title='Audi logo' src='audi.png' style={{height:"200px", width:"250px"}}></Card.Img>
@@ -78,12 +80,14 @@ const AboutUs = () => {
 
       <div class="break"></div>
       <div class="break"></div>
+      <div class="break"></div>
 
       <div className='about-us-container'>
         <Card className='about-us-card'>
           <Card.Img className='crew-photo' style={{ width: '50%', height: '50%'}} src="groupphoto.jpeg" />
           <Card.Body>
             <h2 className='title'>About Us</h2>
+            <hr class="hr hr-blurry" />
             <Card.Text>
               Best Care Auto is and family-owned business.
             </Card.Text>
