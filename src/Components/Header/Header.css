@@ -26,9 +26,10 @@
 
 .phone-text {
     color: black;
-    font-family: 'Sansita', sans-serif;
+    font-weight: bold;
     font-size: 35px;
     background-color: #f4f4f4;
+    font-family: Verdana;
 }
 
 .ase-logo {
@@ -67,8 +68,8 @@ img {
     }
 
     .bca-logo {
-        background-color: #f4f4f4;
-        border-radius: 7px;
+        background-color: #f4f4f4ab;
+        border-radius: 25px;
     }
 
     .social-logos {
@@ -86,8 +87,8 @@ img {
     .contact-text,
     .phone-text {
         font-size: 25px;
-        background-color: #f4f4f4;
-        border-radius: 5px;
+        background-color: #f4f4f4ab;
+        border-radius: 20px;
         padding: 2px;
         flex-wrap: wrap;
     }
