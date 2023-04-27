@@ -51,6 +51,16 @@
     margin: 0;
 }
 
+a.review-links {
+    color: #cf291d;
+    font-weight: bold;
+}
+
+a.review-links:hover {
+    color: #b50717;
+
+}
+
 @media screen and (max-width: 550px) {
 
 }
