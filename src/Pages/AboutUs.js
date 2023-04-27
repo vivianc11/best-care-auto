@@ -22,7 +22,7 @@ const AboutUs = () => {
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header className='fw-bold'>Electrical Diagnosis & Repair</Card.Header>
               <Card.Body>
-                <Card.Title>Car not starting/running properly?</Card.Title>
+                <Card.Title>Car not starting? Not running properly?</Card.Title>
                 <Card.Text>
                   We are experts in diagnosing and fixing electrical issues so that you feel safe in your car.
                 </Card.Text>
@@ -65,8 +65,9 @@ const AboutUs = () => {
          <div className="break"></div>
          <div className="break"></div>
 
-        <h3 className='title'>Types of Cars We Work On</h3>
+        <h3 className='title'>We Service All Vehicles</h3>
         <hr class="hr hr-blurry" />
+        <p>Specialize in Japanese and German cars</p>
         <div className='type-of-cars-container'>  
           <Card.Img title='Honda logo' src='honda.png' style={{height:"200px", width:"250px"}}></Card.Img>
           <Card.Img title='Audi logo' src='audi.png' style={{height:"200px", width:"250px"}}></Card.Img>
@@ -88,12 +89,12 @@ const AboutUs = () => {
             <h2 className='title'>About Us</h2>
             <hr class="hr hr-blurry" />
             <Card.Text>
-              Best Care Auto is and family-owned business.
+              Best Care Auto is a family-owned business.
             </Card.Text>
             <Card.Text>
               The entire team of auto technicians grew up locally in the Garden Grove area and share a passion for cars that began
               in their childhoods. They honed their skills through years of working on cars as a hobby,
-              eventually leading them to pursue careers as mechanics. Each member of the team
+              eventually leading them to pursue careers as certified mechanics. Each member of the team
               owns multiple cars, including an everyday vehicle, as well as a car that they
               work on purely for enjoyment. The team has a particular affinity for
               refurbishing old cars, taking pride in bringing these classic vehicles back
