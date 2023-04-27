@@ -33,7 +33,7 @@ const FAQ = () => {
         <Accordion.Item eventKey="2">  
           <Accordion.Header as="h5">When I leave my car at your shop, can I get a ride to another destination?</Accordion.Header>
             <Accordion.Body>
-              Yes, we are more than willing to transport you to your destination if a driver is on duty and it is within a reasonable distance. Best of all it is FREE.
+              Yes, based on driver availability, we are more than willing to transport you to your destination if it is within a reasonable distance. Best of all it is FREE.
             </Accordion.Body>
         </Accordion.Item>
 
@@ -63,7 +63,7 @@ const FAQ = () => {
             <Accordion.Body>
               Of course! We will also make sure that it is the correct corresponding part prior to installation/usage.
               <br/><br/>
-              Note: Warranties may not be honored if we utilize your parts/materials.
+              Note: Warranties will not be honored if we utilize your parts/materials.
             </Accordion.Body>
         </Accordion.Item>
 
