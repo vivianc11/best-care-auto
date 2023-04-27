@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './style.css';
 import StoreHoursDropdown from '../Components/StoreHoursDropdown/StoreHoursDropdown';
 
-const AboutUs = () => {
+const HomePage = () => {
   return (
     <div>
       <h2 className='welcome-text'>Welcome to Best Care Auto!</h2>
@@ -138,4 +138,4 @@ const AboutUs = () => {
   );
 }
 
-export default AboutUs;
+export default HomePage;
