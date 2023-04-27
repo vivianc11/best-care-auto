@@ -39,7 +39,7 @@ const HomePage = () => {
               </Card.Body>
             </Card>
             <Card border="dark" style={{ width: '18rem' }}>
-              <Card.Header className='fw-bold'>Alignment</Card.Header>
+              <Card.Header className='fw-bold'>Laser Alignment</Card.Header>
               <Card.Body>
                 <Card.Title>Steering pulling away from the center?</Card.Title>
                 <Card.Text>
