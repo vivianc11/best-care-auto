@@ -29,6 +29,7 @@ const HomePage = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
+            {/* Suspension info link: https://www.jdpower.com/cars/shopping-guides/what-is-the-suspension-in-a-car */}
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header className='fw-bold'>Suspension</Card.Header>
               <Card.Body>

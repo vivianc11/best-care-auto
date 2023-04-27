@@ -8,5 +8,6 @@
 }
 
 .directions-link {
-  color: #b50717;
+  color: #b50717 !important;
+  font-weight: bold;
 }
