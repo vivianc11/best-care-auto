@@ -69,6 +69,11 @@ a:link {
     height: 10px;
 }
 
+.indy-car-logos {
+    height: 200px;
+    width: 250px;
+}
+
 .car-logos {
     height: 65%;
     width: 65%;
@@ -90,6 +95,11 @@ a:link {
         font-family: 'Squada One', cursive;
         margin: 10px;
         color: #b50717;
+    }
+
+    .indy-car-logos {
+        height: 40%;
+        width: 40%;
     }
 
 }

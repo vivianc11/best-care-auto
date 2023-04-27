@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import { Link } from 'react-router-dom';
 import './style.css';
 import StoreHoursDropdown from '../Components/StoreHoursDropdown/StoreHoursDropdown';
 
@@ -69,14 +68,17 @@ const HomePage = () => {
         <hr class="hr hr-blurry" />
         <p>Specialize in Japanese and German cars</p>
         <div className='type-of-cars-container'>  
-          <Card.Img title='Honda logo' src='honda.png' style={{height:"200px", width:"250px"}}></Card.Img>
-          <Card.Img title='Audi logo' src='audi.png' style={{height:"200px", width:"250px"}}></Card.Img>
-          <Card.Img title='Toyota logo' src='toyota.png' style={{height:"200px", width:"250px"}}></Card.Img>
-          <Card.Img title='BMW' src='bmw.png' style={{height:"200px", width:"200px"}}></Card.Img>
-          <Card.Img title='Lexus' src='lexus.png' style={{height:"200px", width:"250px"}}></Card.Img>
+          <img className='indy-car-logos' alt='Honda logo' src='honda.png'></img>
+          <img className='indy-car-logos' alt='Audi logo' src='audi.png'></img>
+          <img className='indy-car-logos' alt='Toyota logo' src='toyota.png'></img>
+          <img className='indy-car-logos' alt='BMW logo' src='bmw.png'></img>
+          <img className='indy-car-logos' alt='Lexus logo' src='lexus.png'></img>
         </div>
 
-        <Link to='/services'>Click Here</Link><span> for a complete list of services and cars!</span>
+        <div className="break"></div>
+        <div className="break"></div>
+
+        <a href='/services'>Click Here</a><span> for a complete list of services and cars!</span>
       </div>
 
        <div className="break"></div>
