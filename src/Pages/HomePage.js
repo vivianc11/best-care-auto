@@ -40,7 +40,7 @@ const HomePage = () => {
               </Card.Body>
             </Card>
             <Card border="dark" style={{ width: '18rem' }}>
-              <Card.Header className='fw-bold'>Alignment</Card.Header>
+              <Card.Header className='fw-bold'>Laser Alignment</Card.Header>
               <Card.Body>
                 <Card.Title>Steering pulling away from the center?</Card.Title>
                 <Card.Text>
@@ -70,7 +70,7 @@ const HomePage = () => {
 
         <h3 className='title'>We Service All Vehicles</h3>
         <hr class="hr hr-blurry" />
-        <p>Specialize in Japanese and German cars</p>
+        <p style={{fontSize: '20px'}}>Specialize in Japanese and German cars</p>
         <div className='type-of-cars-container'>  
           <img className='indy-car-logos' alt='Honda logo' src='honda.png'></img>
           <img className='indy-car-logos' alt='Audi logo' src='audi.png'></img>
