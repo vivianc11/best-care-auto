@@ -84,7 +84,6 @@ const AboutUs = () => {
 
       <div className='about-us-container'>
         <Card className='about-us-card'>
-          <Card.Img className='crew-photo' style={{ width: '50%', height: '50%'}} src="groupphoto.jpeg" />
           <Card.Body>
             <h2 className='title'>About Us</h2>
             <hr class="hr hr-blurry" />
@@ -118,7 +117,7 @@ const AboutUs = () => {
         <div className='store-hours-text'>Store Hours: </div>
         <StoreHoursDropdown />
       </div>
-      <div className='store-phone-text' style={{marginBottom: '25px'}}>Phone #: (714) 722-3706 </div>
+      <div className='store-phone-text' style={{marginBottom: '25px'}}>Phone #: <a className='phone-link' href='tel:+1-714-722-3706'>(714) 722-3706</a> </div>
 
       <div className="break"></div>
       <div className="break"></div>

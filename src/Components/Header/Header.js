@@ -5,12 +5,13 @@ const Header = () => {
   return (
     <div className='header-container'>
       <a href="/"><img className='bca-logo hover-shadow' src='./BestCareAuto.png' alt='Best Care Auto Logo' /></a>      
+      {/* ASE logo from: https://www.vhv.rs/viewpic/hwmooim_ase-logo-png-transparent-ase-certified-logo-transparent/ */}
       <img className='ase-logo' src='./ase-logo.png' alt='ASE pic'/>
        <div className="break"></div>
        <div className="break"></div>
       <div>
         
-        <h3><span className='contact-text'>Contact Us: </span><span className='phone-text'>(714) 722-3706</span></h3>
+        <h3><span className='contact-text'>Contact Us: </span><span className='phone-text'><a href='tel:+1-714-722-3706'>(714) 722-3706</a></span></h3>
       </div>
 
       <div className='social-logos'>

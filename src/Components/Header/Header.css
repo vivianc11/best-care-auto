@@ -9,6 +9,8 @@
     background-size: cover;
 }
 
+/* Header background photo from: https://stock.adobe.com/contributor/205563618/aldeca-productions?load_type=author&prev_url=detail&asset_id=221172345 */
+
 .bca-logo {
     height: 150px;
     width: 350px;
@@ -26,6 +28,7 @@
     color: black;
     font-family: 'Sansita', sans-serif;
     font-size: 35px;
+    background-color: #f4f4f4;
 }
 
 .ase-logo {
@@ -63,6 +66,11 @@ img {
         justify-content: center;
     }
 
+    .bca-logo {
+        background-color: #f4f4f4;
+        border-radius: 7px;
+    }
+
     .social-logos {
         height: 90%;
         width: 90%;
@@ -75,12 +83,13 @@ img {
         margin: 0;
     }
 
-    .contact-text {
-        font-size: 25px;
-    }
-
+    .contact-text,
     .phone-text {
         font-size: 25px;
+        background-color: #f4f4f4;
+        border-radius: 5px;
+        padding: 2px;
+        flex-wrap: wrap;
     }
 
 }
