@@ -1,0 +1,7 @@
+@media screen and (max-width: 991px) {
+    .navbar-toggler {
+        border: solid 1px rgba(245, 245, 245, 0.523) !important;
+        background-color: rgba(247, 238, 238, 0.219) !important;
+    }
+
+}
