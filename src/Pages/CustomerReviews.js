@@ -101,13 +101,13 @@ const CustomerReviews = () => {
         <Card.Body>
           <div className='card-top'>
             <div className='reviewer-info'>
-            <img className='reviewer-google-photo' src='./google-profile-erick.png' alt='Pic of Reviewer' />
+            <img className='reviewer-google-photo' src='./google-profile-erick2.png' alt='Pic of Reviewer' />
               <div className='name-and-location'>
                 <Card.Title>Erick C.</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
               </div>
             </div>
-            <img className='google-rating' src='./google-stars.png' alt='rating' />
+            <img className='google-rating' src='./google-stars2.png' alt='rating' />
           </div>
 
           <Card.Text style={{textAlign: 'left'}}>
@@ -122,14 +122,14 @@ const CustomerReviews = () => {
         <Card.Body>
           <div className='card-top'>
             <div className='reviewer-info'>
-            <img className='reviewer-google-photo' src='./google-profile-kristen.png' alt='Pic of Reviewer' />
+            <img className='reviewer-google-photo' src='./google-profile-kristen2.png' alt='Pic of Reviewer' />
               <div className='name-and-location'>
                 <Card.Title>Kristen B.</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
                 
               </div>
             </div>
-            <img className='google-rating' src='./google-stars.png' alt='rating' />
+            <img className='google-rating' src='./google-stars2.png' alt='rating' />
           </div>
 
           <Card.Text style={{textAlign: 'left'}}>
@@ -144,14 +144,14 @@ const CustomerReviews = () => {
         <Card.Body>
           <div className='card-top'>
             <div className='reviewer-info'>
-            <img className='reviewer-google-photo' src='./google-profile-paul.png' alt='Pic of Reviewer' />
+            <img className='reviewer-google-photo' src='./google-profile-paul2.png' alt='Pic of Reviewer' />
               <div className='name-and-location'>
                 <Card.Title>Paul V.</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
                 
               </div>
             </div>
-            <img className='google-rating' src='./google-stars.png' alt='rating' />
+            <img className='google-rating' src='./google-stars2.png' alt='rating' />
           </div>
 
           <Card.Text style={{textAlign: 'left'}}>
