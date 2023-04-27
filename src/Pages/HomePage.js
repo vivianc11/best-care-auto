@@ -8,10 +8,12 @@ const HomePage = () => {
     <div>
       <h2 className='welcome-text'>Welcome to Best Care Auto!</h2>
       <div className='header-desc'>
-        GARDEN GROVE MECHANICS WITH COMMITMENT TO QUALITY WORK, INTEGRITY, AND CUSTOMER SATISFACTION
+        <p>GARDEN GROVE MECHANICS WITH COMMITMENT TO QUALITY WORK, INTEGRITY, AND CUSTOMER SATISFACTION</p>
       </div>
       <br/>
-      <h3 className='title'>Common Services</h3>
+
+
+      <h3 className='title'>Most Popular Services</h3>
       <div className='top-container'>
         <div className='common-services-container'>
 
@@ -59,6 +61,10 @@ const HomePage = () => {
 
          <div className="break"></div>
          <div className="break"></div>
+
+         <a className='click-here-link' href='/services'>Click here for a complete list of services and cars we service!</a>
+
+         <div className="break"></div>
          <div className="break"></div>
 
         <h3 className='title'>We Service All Vehicles</h3>
@@ -75,7 +81,6 @@ const HomePage = () => {
         <div className="break"></div>
         <div className="break"></div>
 
-        <a href='/services'>Click Here</a><span> for a complete list of services and cars!</span>
       </div>
 
        <div className="break"></div>

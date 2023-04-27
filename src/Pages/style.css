@@ -28,6 +28,16 @@
     justify-content: space-evenly;
     align-content: stretch;
 }
+
+.click-here-link {
+    color: #cf291d;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a.click-here-link:hover {
+    color: #b50717;
+}
     
 .about-us-container {
     margin: 25px 0;
