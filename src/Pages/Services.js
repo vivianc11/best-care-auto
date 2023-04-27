@@ -31,10 +31,10 @@ const Services = () => {
           <Card border="dark" style={{ width: '25rem' }}>
             <Card.Header className='services-header'>Diagnosis</Card.Header>
             <Card.Body>
-              <Card.Title>Weird sounds? Did that light on your dashboard come on?</Card.Title>
+              <Card.Title>Weird sounds? Did your engine light on your dashboard come on?</Card.Title>
               <Card.Text><br />
                 Don't worry, we're here to diagnose and recommend treatment.<br /><br />
-                Our professional techs are here to make sure you feel safe and secure when you're behind the wheel.
+                Our professional techs are here to make sure you feel safe and secure when you're behind the wheel. Give us a call and we will get a proper diagnosis and treatment plan for your vehicle. 
               </Card.Text>
             </Card.Body>
           </Card>
@@ -46,7 +46,7 @@ const Services = () => {
               <Card.Text><br />
                 It is important to maintain a regular oil change schedule to prevent dirty or low-levels of oil,
                 causing friction between the engine's parts, which causes advanced wear-and-tear on your vehicle.<br /><br />
-                The following things are done:
+                <b>The following services are done:</b>
                 <li>Engine oil and oil filter are replaced </li>
                 <li>Level and condition of coolant, transmission, and windshield washer fluid are checked</li>
                 <li>Air filter is inspected</li>
@@ -63,11 +63,11 @@ const Services = () => {
               <Card.Title>Come to a complete stop!</Card.Title>
               <Card.Text><br />
                 If you have any signs of brake issues, including squeaking sound, feeling differently, bumpiness with braking, please urgently give us a call to come in for an inspection, to keep you and your family safe!<br /><br />
-                The following parts will be inspected and/or replaced:
-                  <li>Brake pads, fluid, and shoes</li>
+                <b>The following parts are inspected and replaced if needed:</b>
+                  <li>Brake pads, and shoes</li>
+                  <li>Brake fluid</li>
                   <li>Calipers</li>
-                  <li>Rotors</li>
-                  <li>Drums</li>
+                  <li>Drum and Rotors</li>
                   <br />
                 Most brakes, depending your driving style, and the type of environment you drive in, can last up to about 50,000 miles before needing replacement.
               </Card.Text>
@@ -82,7 +82,7 @@ const Services = () => {
                 A tire rotation is when the tires are moved from one position of the car to another, most common is when the tires on the front are swapped with the tires on the back.<br /><br />
                 Why is this important? It will keep your tires' treads even for a smooth ride.<br /><br />
                 Many factors can cause uneven wear, even if one side of your car is heavier than the other! We recommend tire rotations every 6,000-8,000 miles, depending on your vehicle and wear.<br /><br />
-                We will assess flat tire issues, either a plug or even if a new tire is needed.
+                We will also address flat tire issues with either a plug or recommend if a new tire is needed.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -93,7 +93,7 @@ const Services = () => {
               <Card.Title>Can't avoid all those potholes?</Card.Title>
               <Card.Text><br />
                 Do you find that your vehicle tends to pull to one side, and you're fighting it just to drive straight? Your wheels and axles may not be lined up correctly.<br /><br />
-                An alignment will make your steering more precise and safer, and make sure that the parts you don't see, the tires and axles, are well-kept. If your tires are not aligned, the tires could wear unevenly, causing you to get more frequent tire changes.<br /><br />
+                An alignment will make your steering more precise and safer, and make sure that the parts you don't see, the tires and axles, are well-kept. If your tires are not aligned, the tires could wear unevenly, causing you to have to replace your tires more frequently.<br /><br />
                 While there are many reasons we love living in Southern California, we know that there are many potholes and rough roads that just can't be avoided. If you happen to encounter one and feel that your car feels differently, please come see us.
               </Card.Text>
             </Card.Body>
