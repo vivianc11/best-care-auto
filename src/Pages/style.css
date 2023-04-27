@@ -33,10 +33,12 @@
     color: #cf291d;
     font-size: 25px;
     font-weight: bold;
+    text-decoration-line: underline;
 }
 
 a.click-here-link:hover {
     color: #b50717;
+    text-decoration: none;
 }
     
 .about-us-container {
@@ -63,6 +65,7 @@ a.click-here-link:hover {
 .store-hours-text {
     align-self: center;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .store-phone-text{
@@ -105,6 +108,10 @@ a:link {
         font-family: 'Squada One', cursive;
         margin: 10px;
         color: #b50717;
+    }
+
+    .click-here-link {
+        font-size: 20px;
     }
 
     .indy-car-logos {
