@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
 
 const NavBar = () => {
@@ -17,7 +18,7 @@ const NavBar = () => {
 
   return (
     <Navbar className='nav-bar' bg="secondary" expand="lg">
-      <Container fluid >
+      <Container fluid>
         <Navbar.Toggle className='ms-auto' aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto">
