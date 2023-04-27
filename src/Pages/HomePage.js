@@ -23,7 +23,7 @@ const HomePage = () => {
               <Card.Body>
                 <Card.Title>Car not starting? Not running properly?</Card.Title>
                 <Card.Text>
-                  We are experts in diagnosing and fixing electrical issues so that you feel safe in your car.
+                  We are experts in diagnosing and fixing electrical issues so that you can rely on your car.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -32,28 +32,25 @@ const HomePage = () => {
               <Card.Body>
                 <Card.Title>Bumpy Rides</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  Ensure peaceful and smooth rides for your family, while also ensuring better handling and durability of your vehicle.
                 </Card.Text>
               </Card.Body>
             </Card>
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header className='fw-bold'>Alignment</Card.Header>
               <Card.Body>
-                <Card.Title>Pulling to away from the center</Card.Title>
+                <Card.Title>Steering pulling away from the center?</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  Keep your tires in shape, literally, by making sure you get your wheels aligned to ensure even wear and have more precise steering.
                 </Card.Text>
               </Card.Body>
             </Card>
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header className='fw-bold'>Oil Changes</Card.Header>
               <Card.Body>
-                <Card.Title>Dark Card Title</Card.Title>
+                <Card.Title>Protect your engine</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  Your engine relies on clean oil to keep its parts moving and working. We recommend oil changes every 5,000 miles for most vehicles.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -96,9 +93,7 @@ const HomePage = () => {
             <Card.Text>
               The entire team of auto technicians grew up locally in the Garden Grove area and share a passion for cars that began
               in their childhoods. They honed their skills through years of working on cars as a hobby,
-              eventually leading them to pursue careers as certified mechanics. Each member of the team
-              owns multiple cars, including an everyday vehicle, as well as a car that they
-              work on purely for enjoyment. The team has a particular affinity for
+              eventually leading them to pursue careers as certified mechanics. The team has a particular affinity for
               refurbishing old cars, taking pride in bringing these classic vehicles back
               to their former glory.
             </Card.Text>
