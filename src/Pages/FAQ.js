@@ -63,7 +63,7 @@ const FAQ = () => {
             <Accordion.Body>
               Of course! We will also make sure that it is the correct corresponding part prior to installation/usage.
               <br/><br/>
-              Note: Warranties will not be honored if we utilize your parts/materials.
+              <b>Note:</b> Warranties will not be honored if we utilize your parts/materials.
             </Accordion.Body>
         </Accordion.Item>
 
