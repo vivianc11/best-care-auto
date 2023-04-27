@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import { Link } from 'react-router-dom';
 import './style.css';
 import StoreHoursDropdown from '../Components/StoreHoursDropdown/StoreHoursDropdown';
 
@@ -9,10 +8,12 @@ const HomePage = () => {
     <div>
       <h2 className='welcome-text'>Welcome to Best Care Auto!</h2>
       <div className='header-desc'>
-        GARDEN GROVE MECHANICS WITH COMMITMENT TO QUALITY WORK, INTEGRITY, AND CUSTOMER SATISFACTION
+        <p>GARDEN GROVE MECHANICS WITH COMMITMENT TO QUALITY WORK, INTEGRITY, AND CUSTOMER SATISFACTION</p>
       </div>
       <br/>
-      <h3 className='title'>Common Services</h3>
+
+
+      <h3 className='title'>Most Popular Services</h3>
       <div className='top-container'>
         <div className='common-services-container'>
 
@@ -24,7 +25,7 @@ const HomePage = () => {
               <Card.Body>
                 <Card.Title>Car not starting? Not running properly?</Card.Title>
                 <Card.Text>
-                  We are experts in diagnosing and fixing electrical issues so that you feel safe in your car.
+                  We are experts in diagnosing and fixing electrical issues so that you can rely on your car.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -33,28 +34,25 @@ const HomePage = () => {
               <Card.Body>
                 <Card.Title>Bumpy Rides</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  Ensure peaceful and smooth rides for your family, while also ensuring better handling and durability of your vehicle.
                 </Card.Text>
               </Card.Body>
             </Card>
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header className='fw-bold'>Alignment</Card.Header>
               <Card.Body>
-                <Card.Title>Pulling to away from the center</Card.Title>
+                <Card.Title>Steering pulling away from the center?</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  Keep your tires in shape, literally, by making sure you get your wheels aligned to ensure even wear and have more precise steering.
                 </Card.Text>
               </Card.Body>
             </Card>
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header className='fw-bold'>Oil Changes</Card.Header>
               <Card.Body>
-                <Card.Title>Dark Card Title</Card.Title>
+                <Card.Title>Protect your engine</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  Your engine relies on clean oil to keep its parts moving and working. We recommend oil changes every 5,000 miles for most vehicles.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -63,20 +61,26 @@ const HomePage = () => {
 
          <div className="break"></div>
          <div className="break"></div>
+
+         <a className='click-here-link' href='/services'>Click here for a complete list of services and cars we service!</a>
+
+         <div className="break"></div>
          <div className="break"></div>
 
         <h3 className='title'>We Service All Vehicles</h3>
         <hr class="hr hr-blurry" />
         <p>Specialize in Japanese and German cars</p>
         <div className='type-of-cars-container'>  
-          <Card.Img title='Honda logo' src='honda.png' style={{height:"200px", width:"250px"}}></Card.Img>
-          <Card.Img title='Audi logo' src='audi.png' style={{height:"200px", width:"250px"}}></Card.Img>
-          <Card.Img title='Toyota logo' src='toyota.png' style={{height:"200px", width:"250px"}}></Card.Img>
-          <Card.Img title='BMW' src='bmw.png' style={{height:"200px", width:"200px"}}></Card.Img>
-          <Card.Img title='Lexus' src='lexus.png' style={{height:"200px", width:"250px"}}></Card.Img>
+          <img className='indy-car-logos' alt='Honda logo' src='honda.png'></img>
+          <img className='indy-car-logos' alt='Audi logo' src='audi.png'></img>
+          <img className='indy-car-logos' alt='Toyota logo' src='toyota.png'></img>
+          <img className='indy-car-logos' alt='BMW logo' src='bmw.png'></img>
+          <img className='indy-car-logos' alt='Lexus logo' src='lexus.png'></img>
         </div>
 
-        <Link to='/services'>Click Here</Link><span> for a complete list of services and cars!</span>
+        <div className="break"></div>
+        <div className="break"></div>
+
       </div>
 
        <div className="break"></div>
@@ -94,9 +98,7 @@ const HomePage = () => {
             <Card.Text>
               The entire team of auto technicians grew up locally in the Garden Grove area and share a passion for cars that began
               in their childhoods. They honed their skills through years of working on cars as a hobby,
-              eventually leading them to pursue careers as certified mechanics. Each member of the team
-              owns multiple cars, including an everyday vehicle, as well as a car that they
-              work on purely for enjoyment. The team has a particular affinity for
+              eventually leading them to pursue careers as certified mechanics. The team has a particular affinity for
               refurbishing old cars, taking pride in bringing these classic vehicles back
               to their former glory.
             </Card.Text>
