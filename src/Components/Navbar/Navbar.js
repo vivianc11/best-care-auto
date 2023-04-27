@@ -6,16 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Navbar.css';
 
 const NavBar = () => {
-  const styles = {
-    nav: {
-      color: "#b30d02",
-      fontWeight: "bold",
-      fontSize: "28px",
-      borderRadius: "15px",
-      fontFamily: 'Archivo Black',
-    }
-  }
-
   return (
     <>
       <Navbar className='nav-bar' bg="" expand="lg">
