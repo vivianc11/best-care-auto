@@ -92,6 +92,14 @@ a:link {
     width: 65%;
 }
 
+.services-header {
+    font-weight: bold;
+}
+
+.card-text {
+    list-style-type: '-  ';
+}
+
 @media screen and (max-width: 900px) {
     .about-us-card {
         flex-wrap: wrap;
