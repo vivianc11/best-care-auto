@@ -20,7 +20,7 @@ const HomePage = () => {
         <hr class="hr hr-blurry" />
 
           <div className='common-services-cards'>
-            <Card border="dark" style={{ width: '18rem' }}>
+            <Card className= 'common-service-card' border="dark" style={{ width: '18rem'}}>
               <Card.Header className='fw-bold'>Electrical Diagnosis & Repair</Card.Header>
               <Card.Body>
                 <Card.Title>Car not starting? Not running properly?</Card.Title><br />
@@ -30,7 +30,7 @@ const HomePage = () => {
               </Card.Body>
             </Card>
             {/* Suspension info link: https://www.jdpower.com/cars/shopping-guides/what-is-the-suspension-in-a-car */}
-            <Card border="dark" style={{ width: '18rem' }}>
+            <Card className= 'common-service-card' border="dark" style={{ width: '18rem' }}>
               <Card.Header className='fw-bold'>Suspension</Card.Header>
               <Card.Body>
                 <Card.Title>Bumpy Rides</Card.Title><br />
@@ -39,7 +39,7 @@ const HomePage = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card border="dark" style={{ width: '18rem' }}>
+            <Card className= 'common-service-card' border="dark" style={{ width: '18rem' }}>
               <Card.Header className='fw-bold'>Laser Alignment</Card.Header>
               <Card.Body>
                 <Card.Title>Steering pulling away from the center?</Card.Title><br />
@@ -48,7 +48,7 @@ const HomePage = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card border="dark" style={{ width: '18rem' }}>
+            <Card className= 'common-service-card' common-border="dark" style={{ width: '18rem' }}>
               <Card.Header className='fw-bold'>Oil Changes</Card.Header>
               <Card.Body>
                 <Card.Title>Protect your engine</Card.Title><br />
@@ -118,12 +118,11 @@ const HomePage = () => {
       <h3 className='title' style={{margin: 0}}>Come By and Meet the Team!</h3>
       <hr class="hr hr-blurry" />
       <div className='store-hours'>
-        <div className='store-hours-text'>Business Hours: </div>
+        <div className='store-hours-text'>Business Hours:</div>
         <StoreHoursDropdown />
       </div>
       <div className='store-phone-text' style={{marginBottom: '25px'}}>Phone #: <a className='phone-link' href='tel:+1-714-722-3706'>(714) 722-3706</a> </div>
 
-      <div className="break"></div>
       <div className="break"></div>
 
       {/* Google Map Location */}

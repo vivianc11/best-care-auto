@@ -60,17 +60,18 @@ a.click-here-link:hover {
 .store-hours {
     display: flex;
     justify-content: center;
-    margin: 15px 25px 0 25px;
+    margin: 15px 25px 5px 25px;
 }
 
 .store-hours-text {
     align-self: center;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
+    margin-right: 5px;
 }
 
 .store-phone-text{
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -107,6 +108,10 @@ a:link {
         justify-content: center;
     }
 
+    .common-service-card {
+        margin-bottom: 8px;
+    }
+
     .car-logos {
         height: 90%;
         width: 90%;
@@ -126,6 +131,14 @@ a:link {
     .indy-car-logos {
         height: 30%;
         width: 30%;
+    }
+
+    .store-hours-text {
+        font-size: 19px;
+    }
+
+    .store-phone-text {
+        font-size: 20px;
     }
 
 }
