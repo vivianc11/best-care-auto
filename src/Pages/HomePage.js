@@ -69,7 +69,7 @@ const HomePage = () => {
 
         <h3 className='title'>We Service All Vehicles</h3>
         <hr class="hr hr-blurry" />
-        <p>Specialize in Japanese and German cars</p>
+        <p style={{fontSize: '20px'}}>Specialize in Japanese and German cars</p>
         <div className='type-of-cars-container'>  
           <img className='indy-car-logos' alt='Honda logo' src='honda.png'></img>
           <img className='indy-car-logos' alt='Audi logo' src='audi.png'></img>
