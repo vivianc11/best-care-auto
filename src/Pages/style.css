@@ -108,6 +108,10 @@ a:link {
         justify-content: center;
     }
 
+    .common-service-card {
+        margin-bottom: 8px;
+    }
+
     .car-logos {
         height: 90%;
         width: 90%;
