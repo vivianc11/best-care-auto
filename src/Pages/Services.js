@@ -31,8 +31,8 @@ const Services = () => {
           <Card border="dark" style={{ width: '25rem' }}>
             <Card.Header className='services-header'>Diagnosis</Card.Header>
             <Card.Body>
-              <Card.Title>Weird sounds? Did your engine light on your dashboard come on?</Card.Title>
-              <Card.Text><br />
+              <Card.Title>Weird sounds? Did your engine light on your dashboard come on?</Card.Title><br />
+              <Card.Text>
                 Don't worry, we're here to diagnose and recommend treatment.<br /><br />
                 Our professional techs are here to make sure you feel safe and secure when you're behind the wheel. Give us a call and we will get a proper diagnosis and treatment plan for your vehicle. 
               </Card.Text>
@@ -42,8 +42,8 @@ const Services = () => {
           <Card border="dark" style={{ width: '25rem' }}>
             <Card.Header className='services-header'>Oil Change</Card.Header>
             <Card.Body>
-              <Card.Title>Keep your engine running smoothly</Card.Title>
-              <Card.Text><br />
+              <Card.Title>Keep your engine running smoothly</Card.Title><br />
+              <Card.Text>
                 It is important to maintain a regular oil change schedule to prevent dirty or low-levels of oil,
                 causing friction between the engine's parts, which causes advanced wear-and-tear on your vehicle.<br /><br />
                 <b>The following services are done:</b>
@@ -60,8 +60,8 @@ const Services = () => {
           <Card border="dark" style={{ width: '25rem' }}>
             <Card.Header className='services-header'>Brake Service</Card.Header>
             <Card.Body>
-              <Card.Title>Come to a complete stop!</Card.Title>
-              <Card.Text><br />
+              <Card.Title>Come to a complete stop!</Card.Title><br />
+              <Card.Text>
                 If you have any signs of brake issues, including squeaking sound, feeling differently, bumpiness with braking, please urgently give us a call to come in for an inspection, to keep you and your family safe!<br /><br />
                 <b>The following parts are inspected and replaced if needed:</b>
                   <li>Brake pads, and shoes</li>
@@ -77,8 +77,8 @@ const Services = () => {
           <Card border="dark" style={{ width: '25rem' }}>
             <Card.Header className='services-header'>Tire Rotation, Repairs</Card.Header>
             <Card.Body>
-              <Card.Title>Uneven treads? Flat tire? </Card.Title>
-              <Card.Text><br />
+              <Card.Title>Uneven treads? Flat tire? </Card.Title><br />
+              <Card.Text>
                 A tire rotation is when the tires are moved from one position of the car to another, most common is when the tires on the front are swapped with the tires on the back.<br /><br />
                 Why is this important? It will keep your tires' treads even for a smooth ride.<br /><br />
                 Many factors can cause uneven wear, even if one side of your car is heavier than the other! We recommend tire rotations every 6,000-8,000 miles, depending on your vehicle and wear.<br /><br />
@@ -90,8 +90,8 @@ const Services = () => {
           <Card border="dark" style={{ width: '25rem' }}>
             <Card.Header className='services-header'>Laser Alignment</Card.Header>
             <Card.Body>
-              <Card.Title>Can't avoid all those potholes?</Card.Title>
-              <Card.Text><br />
+              <Card.Title>Can't avoid all those potholes?</Card.Title><br />
+              <Card.Text>
                 Do you find that your vehicle tends to pull to one side, and you're fighting it just to drive straight? Your wheels and axles may not be lined up correctly.<br /><br />
                 An alignment will make your steering more precise and safer, and make sure that the parts you don't see, the tires and axles, are well-kept. If your tires are not aligned, the tires could wear unevenly, causing you to have to replace your tires more frequently.<br /><br />
                 While there are many reasons we love living in Southern California, we know that there are many potholes and rough roads that are unavoidable. If you happen to encounter one and feel that your car drives differently, please come see us.

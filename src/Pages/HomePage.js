@@ -23,7 +23,7 @@ const HomePage = () => {
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header className='fw-bold'>Electrical Diagnosis & Repair</Card.Header>
               <Card.Body>
-                <Card.Title>Car not starting? Not running properly?</Card.Title>
+                <Card.Title>Car not starting? Not running properly?</Card.Title><br />
                 <Card.Text>
                   We are experts in diagnosing and fixing electrical issues so that you can rely on your car.
                 </Card.Text>
@@ -33,7 +33,7 @@ const HomePage = () => {
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header className='fw-bold'>Suspension</Card.Header>
               <Card.Body>
-                <Card.Title>Bumpy Rides</Card.Title>
+                <Card.Title>Bumpy Rides</Card.Title><br />
                 <Card.Text>
                   Ensure peaceful and smooth rides for your family, while also ensuring better handling and durability of your vehicle.
                 </Card.Text>
@@ -42,7 +42,7 @@ const HomePage = () => {
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header className='fw-bold'>Laser Alignment</Card.Header>
               <Card.Body>
-                <Card.Title>Steering pulling away from the center?</Card.Title>
+                <Card.Title>Steering pulling away from the center?</Card.Title><br />
                 <Card.Text>
                   Keep your tires in shape, literally, by making sure you get your wheels aligned to ensure even wear and have more precise steering.
                 </Card.Text>
@@ -51,7 +51,7 @@ const HomePage = () => {
             <Card border="dark" style={{ width: '18rem' }}>
               <Card.Header className='fw-bold'>Oil Changes</Card.Header>
               <Card.Body>
-                <Card.Title>Protect your engine</Card.Title>
+                <Card.Title>Protect your engine</Card.Title><br />
                 <Card.Text>
                   Your engine relies on clean oil to keep its parts moving and working. We recommend oil changes every 5,000 miles for most vehicles.
                 </Card.Text>
