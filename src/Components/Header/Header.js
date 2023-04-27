@@ -5,6 +5,7 @@ const Header = () => {
   return (
     <div className='header-container'>
       <a href="/"><img className='bca-logo hover-shadow' src='./BestCareAuto.png' alt='Best Care Auto Logo' /></a>      
+      {/* ASE logo from: https://www.vhv.rs/viewpic/hwmooim_ase-logo-png-transparent-ase-certified-logo-transparent/ */}
       <img className='ase-logo' src='./ase-logo.png' alt='ASE pic'/>
        <div className="break"></div>
        <div className="break"></div>

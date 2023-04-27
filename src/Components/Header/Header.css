@@ -9,6 +9,8 @@
     background-size: cover;
 }
 
+/* Header background photo from: https://stock.adobe.com/contributor/205563618/aldeca-productions?load_type=author&prev_url=detail&asset_id=221172345 */
+
 .bca-logo {
     height: 150px;
     width: 350px;
@@ -63,7 +65,6 @@ img {
     .bca-logo {
         background-color: #f4f4f4;
         border-radius: 7px;
-        padding: -3px;
     }
 
     .social-logos {
@@ -84,6 +85,7 @@ img {
         background-color: #f4f4f4;
         border-radius: 5px;
         padding: 2px;
+        flex-wrap: wrap;
     }
 
 }
