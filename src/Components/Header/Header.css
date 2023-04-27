@@ -26,6 +26,7 @@
     color: black;
     font-family: 'Sansita', sans-serif;
     font-size: 35px;
+    background-color: #f4f4f4;
 }
 
 .ase-logo {
@@ -59,6 +60,12 @@ img {
         justify-content: center;
     }
 
+    .bca-logo {
+        background-color: #f4f4f4;
+        border-radius: 7px;
+        padding: -3px;
+    }
+
     .social-logos {
         height: 90%;
         width: 90%;
@@ -71,12 +78,12 @@ img {
         margin: 0;
     }
 
-    .contact-text {
-        font-size: 25px;
-    }
-
+    .contact-text,
     .phone-text {
         font-size: 25px;
+        background-color: #f4f4f4;
+        border-radius: 5px;
+        padding: 2px;
     }
 
 }
