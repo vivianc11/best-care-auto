@@ -94,7 +94,7 @@ const Services = () => {
               <Card.Text><br />
                 Do you find that your vehicle tends to pull to one side, and you're fighting it just to drive straight? Your wheels and axles may not be lined up correctly.<br /><br />
                 An alignment will make your steering more precise and safer, and make sure that the parts you don't see, the tires and axles, are well-kept. If your tires are not aligned, the tires could wear unevenly, causing you to have to replace your tires more frequently.<br /><br />
-                While there are many reasons we love living in Southern California, we know that there are many potholes and rough roads that just can't be avoided. If you happen to encounter one and feel that your car feels differently, please come see us.
+                While there are many reasons we love living in Southern California, we know that there are many potholes and rough roads that are unavoidable. If you happen to encounter one and feel that your car drives differently, please come see us.
               </Card.Text>
             </Card.Body>
           </Card>
@@ -109,7 +109,7 @@ const Services = () => {
           <img alt='Compliation of car logos' className='car-logos' src='CarBrands.png'></img>
           <div className="break"></div>
           <div className="break"></div>
-          <p>Don't see your car listed? Give us a call.</p>
+          <p style={{fontSize: '25px'}}>Don't see your car listed? Give us a call.</p>
 
         </div>
       </div>
