@@ -1,4 +1,14 @@
+.navlink {
+    /* color: #b30d02; */
+    color: #4F4F4F !important;
+    /* font-weight: bold; */
+    font-size: 15px;
+    font-family: 'Archivo Black';
+}
 
+.navlink:hover {
+    filter: drop-shadow(0 3px 8px #a8a8a8);
+}
 
 @media screen and (max-width: 991px) {
     .navbar-light .navbar-toggler-icon {
