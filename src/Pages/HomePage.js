@@ -118,12 +118,11 @@ const HomePage = () => {
       <h3 className='title' style={{margin: 0}}>Come By and Meet the Team!</h3>
       <hr class="hr hr-blurry" />
       <div className='store-hours'>
-        <div className='store-hours-text'>Business Hours: </div>
+        <div className='store-hours-text'>Business Hours:</div>
         <StoreHoursDropdown />
       </div>
       <div className='store-phone-text' style={{marginBottom: '25px'}}>Phone #: <a className='phone-link' href='tel:+1-714-722-3706'>(714) 722-3706</a> </div>
 
-      <div className="break"></div>
       <div className="break"></div>
 
       {/* Google Map Location */}
