@@ -2,7 +2,11 @@
     display: flex;
     background-color: #1d1d1d;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
     gap: 15px;
     color: #bfbfbf;
-  }
+}
+
+.directions-link {
+  color: #b50717;
+}
