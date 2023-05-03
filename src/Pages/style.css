@@ -41,7 +41,7 @@ a.click-here-link:hover {
     color: #b50717;
     text-decoration: none;
 }
-    
+
 .about-us-container {
     margin: 25px 0;
 }
@@ -70,7 +70,7 @@ a.click-here-link:hover {
     margin-right: 5px;
 }
 
-.store-phone-text{
+.store-phone-text {
     font-size: 22px;
     font-weight: bold;
 }
@@ -126,6 +126,8 @@ a:link {
 
     .click-here-link {
         font-size: 20px;
+        margin: 0 8px;
+
     }
 
     .indy-car-logos {
@@ -139,6 +141,10 @@ a:link {
 
     .store-phone-text {
         font-size: 20px;
+    }
+
+    .title {
+        font-size: 38px !important;
     }
 
 }
