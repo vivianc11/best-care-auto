@@ -102,6 +102,10 @@ a:link {
     list-style-type: '-  ';
 }
 
+.card {
+    margin: 8px 8px;
+}
+
 @media screen and (max-width: 900px) {
     .about-us-card {
         flex-wrap: wrap;
@@ -147,4 +151,7 @@ a:link {
         font-size: 38px !important;
     }
 
+    .card {
+    
+    }
 }
