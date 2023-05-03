@@ -56,7 +56,7 @@ const Services = () => {
             </Card.Body>
           </Card>
           {/* Breaks info link: https://www.kbb.com/car-advice/brake-repair-do-you-need-it/ */}
-          <div className="break"></div>
+          {/* <div className="break"></div> */}
           <Card border="dark" style={{ width: '25rem' }}>
             <Card.Header className='services-header'>Brake Service</Card.Header>
             <Card.Body>
