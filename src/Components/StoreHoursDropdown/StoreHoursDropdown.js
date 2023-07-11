@@ -2,13 +2,13 @@ import React from "react";
 import { Dropdown } from "react-bootstrap";
 
 const storeHours = [
-  { day: "Monday", hours: "9AM-6PM" },
+  { day: "Monday", hours: "CLOSED" },
   { day: "Tuesday", hours: "9AM-6PM" },
-  { day: "Wednesday", hours: "Closed" },
+  { day: "Wednesday", hours: "9AM-6PM" },
   { day: "Thursday", hours: "9AM-6PM" },
   { day: "Friday", hours: "9AM-6PM" },
   { day: "Saturday", hours: "9AM-6PM" },
-  { day: "Sunday", hours: "Closed" },
+  { day: "Sunday", hours: "CLOSED" },
 ];
 
 const getCurrentDay = () => {
